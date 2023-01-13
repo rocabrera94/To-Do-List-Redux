@@ -1,0 +1,57 @@
+.container{
+    margin-top: 40px;
+}
+
+input{
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1.5px solid rgb(156, 151, 151);
+    margin-right: 10px;
+    width: 20%;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(231, 154, 11);
+    border: 2px solid rgb(231, 154, 11);
+    height: 29px;
+    margin-right: 9px;
+}
+
+.btn-add, .btn-delete{
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 13px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #FFF;
+    border: 0.5px solid rgb(156, 151, 151);
+}
+
+.btn-add{
+    background-color: #FF9500;
+    color: white;
+    margin-right: 15px;
+}
+
+.btn-add:hover{
+    background-color: #FF7B00;
+    border-color: #000;
+}
+
+.btn-delete{
+    background-color: #403D39;
+}
+
+.btn-delete:hover{
+    background-color: #252422;
+    border-color: #000;
+}
+
+@media screen and (max-width: 800px) {
+    input{
+      width: 50%;
+    }
+  }
+
